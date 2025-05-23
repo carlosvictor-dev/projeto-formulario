@@ -17,12 +17,14 @@ input {
 }
 
 input[type="text"], input[type="number"], input[type="date"],input[type="file"]{
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
 }
 
 textarea {
     padding: 10px 5px;
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
 }
 
 .header {
